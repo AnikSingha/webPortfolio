@@ -1,21 +1,26 @@
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink
-} from '@chakra-ui/react'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink , Container} from '@chakra-ui/react'
 import ThemeSwitch from './ThemeSwitch'
-import { Flex, Spacer, Heading } from '@chakra-ui/layout'
-
+import { Spacer, Heading, HStack } from '@chakra-ui/layout'
+import { IconButton } from "@chakra-ui/button";
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 //ADD ROUTING LATER
 
 function NavBar() {
   return (
-    <Flex w='100%' align='center'>
-      <Heading ml="8" size="md" fontWeight='semibold'>Anik Singha</Heading>
+    <HStack>
+      <HStack mr="1000" mt="1.5">
+        <Heading size="md" fontWeight='semibold'>Anik Singha</Heading>
+        <a href="https://www.linkedin.com/in/anik-singha/" target='_blank'>
+          <IconButton icon={<FaLinkedin />} isRound='true' ></IconButton>
+        </a>
+        <a href="https://github.com/AnikSingha" target="_blank">
+          <IconButton icon={<FaGithub />} isRound='true' href=""></IconButton>
+        </a>
+      </HStack>
       <Spacer/>
-      <Breadcrumb spacing='7px' separator=' ' mt={1}ml={1100}>
+      <Breadcrumb spacing='7px' separator=' ' mt={1}ml={1125}>
         <BreadcrumbItem>
           <BreadcrumbLink href='#' fontWeight='semibold'>Home</BreadcrumbLink>
         </BreadcrumbItem>
@@ -31,7 +36,7 @@ function NavBar() {
       </Breadcrumb>
       <Spacer/>
       <ThemeSwitch/>
-      </Flex>
+      </HStack>
   )
 };
 
