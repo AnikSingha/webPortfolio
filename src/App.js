@@ -1,10 +1,16 @@
+import React from 'react'
+import NavBar from "./components/NavBar.js"
+import Header from './components/Header.js';
+import { Flex, VStack, Spacer, HStack} from '@chakra-ui/layout'
+import About from './components/About.js';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
-    </div>
+      <VStack>
+        <NavBar/>
+        <Header/>
+        <About/>
+      </VStack>
   );
 }
 
