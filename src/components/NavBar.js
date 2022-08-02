@@ -13,14 +13,14 @@ function NavBar() {
       <HStack mr="1000" mt="1.5">
         <Heading size="md" fontWeight='semibold'>Anik Singha</Heading>
         <a href="https://www.linkedin.com/in/anik-singha/" target='_blank' rel="noreferrer">
-          <IconButton icon={<FaLinkedin />} isRound='true' ></IconButton>
+          <IconButton icon={<FaLinkedin />} isRound='true' mt='1'></IconButton>
         </a>
         <a href="https://github.com/AnikSingha" target="_blank" rel="noreferrer">
-          <IconButton icon={<FaGithub />} isRound='true' href=""></IconButton>
+          <IconButton icon={<FaGithub />} isRound='true' mt='1'></IconButton>
         </a>
       </HStack>
       <Spacer/>
-      <Breadcrumb spacing='7px' separator=' ' mt={1}ml={1125}>
+      <Breadcrumb spacing='7px' separator=' ' mt={1}ml={1150}>
         <BreadcrumbItem>
           <BreadcrumbLink href='#' fontWeight='semibold'>Home</BreadcrumbLink>
         </BreadcrumbItem>
@@ -34,7 +34,6 @@ function NavBar() {
         </BreadcrumbItem>
 
       </Breadcrumb>
-      <Spacer/>
       </HStack>
   )
 };
