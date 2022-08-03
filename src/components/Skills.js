@@ -1,11 +1,11 @@
 import {Text} from '@chakra-ui/layout'
-import './Skills.css'
+import './css/Skills.css'
 
 export default function Skills() {
   return (
-    <div style={{marginTop: 50}}>
+    <div style={{marginTop: 50}} className='project'>
         <section className='section skills' id='skills'>
-        <Text fontSize="5xl" fontWeight="bold" ml="165">Skills</Text>
+        <Text fontSize="5xl" fontWeight="bold" ml="0">Skills</Text>
         <ul className='skills__list'>
             <li className='skills__list-item btn btn--plain'>
                 HTML

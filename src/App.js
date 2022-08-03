@@ -1,20 +1,22 @@
 import React from 'react'
 import NavBar from "./components/NavBar.js"
-import Header from './components/Header.js';
+import Footer from "./components/Footer.js"
+import Home  from './routes/Home.js';
+import { BrowserRouter as Router, Route, Routes} 
+        from "react-router-dom";
 import {VStack} from '@chakra-ui/layout'
-import About from './components/About.js';
-import Skills from './components/Skills.js';
-import Spacing from './components/Spacing.js'
-import ContactBtn from './components/ContactBtn'
+
 function App() {
   return (
       <VStack>
         <NavBar/>
-        <Header/>
-        <About/>
-        <Skills/>
-        <Spacing/>
-        <ContactBtn/>
+        <Router>
+            <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="*" element={<Home/>} />
+            </Routes>
+        </Router>
+        <Footer/>
       </VStack>
   );
 }
