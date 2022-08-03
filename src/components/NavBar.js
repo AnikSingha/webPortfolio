@@ -1,5 +1,4 @@
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react'
-import ThemeSwitch from './ThemeSwitch'
 import { Spacer, Heading, HStack } from '@chakra-ui/layout'
 import { IconButton } from "@chakra-ui/button";
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
