@@ -1,16 +1,14 @@
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react'
-import ThemeSwitch from './ThemeSwitch'
 import { Spacer, Heading, HStack } from '@chakra-ui/layout'
 import { IconButton } from "@chakra-ui/button";
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
-
-//ADD ROUTING LATER
 
 function NavBar() {
   return (
-    <HStack w="97%">
-      <HStack mr="1000" mt="1.5">
+    <HStack w="98%">
+      <HStack mr="1000" mt="1.5" >
         <Heading size="md" fontWeight='semibold'>Anik Singha</Heading>
         <a href="https://www.linkedin.com/in/anik-singha/" target='_blank' rel="noreferrer">
           <IconButton icon={<FaLinkedin />} isRound='true' mt='1'></IconButton>
@@ -20,17 +18,17 @@ function NavBar() {
         </a>
       </HStack>
       <Spacer/>
-      <Breadcrumb spacing='7px' separator=' ' mt={1}ml={1150}>
-        <BreadcrumbItem>
-          <BreadcrumbLink href='#' fontWeight='semibold'>Home</BreadcrumbLink>
-        </BreadcrumbItem>
-
-        <BreadcrumbItem>
-          <BreadcrumbLink href='#' fontWeight='semibold'>Projects</BreadcrumbLink>
-        </BreadcrumbItem>
-
+      <Breadcrumb spacing='7px' separator=' ' mt={1} ml={1150}>
         <BreadcrumbItem isCurrentPage>
-          <BreadcrumbLink href='#' fontWeight='semibold'>Contact</BreadcrumbLink>
+          <BreadcrumbLink fontWeight='semibold' as={Link} to='/'>Home</BreadcrumbLink>
+        </BreadcrumbItem>
+
+        <BreadcrumbItem>
+          <BreadcrumbLink fontWeight='semibold' as={Link} to='/projects'>Projects</BreadcrumbLink>
+        </BreadcrumbItem>
+
+        <BreadcrumbItem>
+          <BreadcrumbLink fontWeight='semibold' as={Link} to='/contact'>Contact</BreadcrumbLink>
         </BreadcrumbItem>
 
       </Breadcrumb>
