@@ -1,5 +1,5 @@
 import React from 'react'
-import myGif from './terminal.gif';
+import myGif from './images/terminal.gif';
 
 export default function Terminal() {
   return (
