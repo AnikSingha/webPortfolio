@@ -11,7 +11,7 @@ function Header() {
         <Stack>
             <HStack mt='75' ml='50'>
                 <Flex>
-                <Box mt={isNotSmallerScreen ? "0" : 16} mb="75" align='flex-start'>
+                <Box mt={isNotSmallerScreen ? "0" : 16} mb="75">
                     <Text fontSize="5xl" fontWeight="semibold" mr="400">Hi, I'm</Text>
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.500)" bgClip='text'>Anik Singha</Text>
                     <Text fontWeight='semibold' >A Full-Stack developer and CS student at Hunter College</Text>
