@@ -8,7 +8,7 @@ export default function About() {
               <Flex alignContent='center'>
                   <VStack>
                       <Text fontSize="5xl" fontWeight="bold" >About Me</Text>
-                      <Container maxW="40%">Hi, I'm Anik, a developer based in Brooklyn, NY.
+                      <Container>Hi, I'm Anik, a developer based in Brooklyn, NY.
                         I'm currently a sophomore at Hunter College majoring in computer 
                         science and minoring in mathematics. My coding journey began not too
                         long ago. During my senior year of high school I struggled to find a major
