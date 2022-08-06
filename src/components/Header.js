@@ -6,7 +6,7 @@ import Terminal from './Terminal.js'
 import React from 'react'
 
 function Header() {
-    const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
     return (
         <Stack>
             <HStack mt='75' ml='50'>
