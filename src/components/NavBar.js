@@ -3,6 +3,7 @@ import { Spacer, Heading, HStack } from '@chakra-ui/layout'
 import { IconButton } from "@chakra-ui/button";
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import ThemeSwitch from './ThemeSwitch.js'
 
 
 function NavBar() {
@@ -29,6 +30,7 @@ function NavBar() {
 
 
       </Breadcrumb>
+      <ThemeSwitch />
       </HStack>
   )
 };
