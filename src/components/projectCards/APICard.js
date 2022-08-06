@@ -26,7 +26,7 @@ export default function GameProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               REST API
             </Text>
-            <Text fontWeight="light">A REST API that contains the top rated anime from MAL. The data was obtained by Webscraping
+            <Text fontWeight="light">A REST API that contains the top rated anime from MAL. I scraped the website for the data
             </Text>
           <Flex>  
             <Spacer />

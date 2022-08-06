@@ -27,9 +27,6 @@ function NavBar() {
           <BreadcrumbLink fontWeight='semibold' as={Link} to='/projects'>Projects</BreadcrumbLink>
         </BreadcrumbItem>
 
-        <BreadcrumbItem>
-          <BreadcrumbLink fontWeight='semibold' as={Link} to='/contact'>Contact</BreadcrumbLink>
-        </BreadcrumbItem>
 
       </Breadcrumb>
       </HStack>
