@@ -32,7 +32,6 @@ function NavBar() {
           <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/projects'>Projects</BreadcrumbLink>
         </BreadcrumbItem>
 
-
       </Breadcrumb>
       : 
       <Menu>
