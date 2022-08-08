@@ -1,5 +1,5 @@
 import { Box, Image, Text, Stack, Button, Badge, Flex, Spacer, HStack } from "@chakra-ui/react";
-import email from '../images/email.jpg'
+import email from '../images/email.webp'
 import { FaGithub } from 'react-icons/fa'
   
 export default function EmailProjectCard(){  

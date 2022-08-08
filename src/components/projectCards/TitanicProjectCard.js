@@ -1,5 +1,5 @@
 import { Box, Image, Text, Stack, Button, Badge, Flex, Spacer, HStack } from "@chakra-ui/react";
-import ship from '../images/ship.jpg'
+import ship from '../images/ship.webp'
 import { FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
   
 export default function GameProjectCard(){  

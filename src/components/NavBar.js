@@ -9,10 +9,10 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 function NavBar() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:1025px)")
   return (
-    <HStack w="98%">
+    <HStack w="100%">
       <Flex>
         <HStack>
-          <Heading size="md" fontWeight='semibold' ml={isNotSmallerScreen ? '0' : '2'}>Anik Singha</Heading>
+          <Heading size="md" fontWeight='semibold' ml="3">Anik Singha</Heading>
           <a href="https://www.linkedin.com/in/anik-singha/" target='_blank' rel="noreferrer">
             <IconButton icon={<FaLinkedin />} isRound='true' mt='1'></IconButton>
           </a>
@@ -29,7 +29,7 @@ function NavBar() {
         </BreadcrumbItem>
 
         <BreadcrumbItem>
-          <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/projects'>Projects</BreadcrumbLink>
+          <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/projects' mr={3}>Projects</BreadcrumbLink>
         </BreadcrumbItem>
 
       </Breadcrumb>
