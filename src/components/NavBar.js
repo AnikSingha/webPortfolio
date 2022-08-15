@@ -39,7 +39,7 @@ function NavBar() {
       : 
       <Menu>
         <MenuButton>
-          <IconButton mr="1" mt="1.5">
+          <IconButton mr="1" mt="1">
             <HamburgerIcon/>
           </IconButton>
         </MenuButton>
