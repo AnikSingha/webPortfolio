@@ -9,7 +9,6 @@ function Header() {
     const isNotSmallerScreen = useMediaQuery({
         query: '(min-width: 800px)'
       })
-      console.log(isNotSmallerScreen)
     return (
         <Stack>
             <HStack mt='75' ml='50'>

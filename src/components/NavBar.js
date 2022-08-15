@@ -1,13 +1,16 @@
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Button, Link, useMediaQuery } from '@chakra-ui/react'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Button, Link } from '@chakra-ui/react'
 import { Spacer, Heading, HStack, Flex } from '@chakra-ui/layout'
 import { IconButton } from "@chakra-ui/button";
+import { useMediaQuery } from 'react-responsive'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link as ReactLink} from 'react-router-dom'
 import { Menu, MenuButton, MenuList, MenuItem} from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 
 function NavBar() {
-  const [isNotSmallerScreen] = useMediaQuery("(min-width:1025px)")
+  const isNotSmallerScreen = useMediaQuery({
+    query: '(min-width: 800px)'
+  })
   return (
     <HStack w="100%">
       <Flex>
@@ -35,14 +38,15 @@ function NavBar() {
       </Breadcrumb>
       : 
       <Menu>
-        <MenuButton as={Button}>
+        <MenuButton as={IconButton}>
           <HamburgerIcon/>
         </MenuButton>
         <MenuList>
           <Link as={ReactLink} to='/'><MenuItem>Home</MenuItem></Link>
           <Link as={ReactLink} to='/projects'><MenuItem>Projects</MenuItem></Link>
         </MenuList>
-      </Menu>}
+      </Menu>
+      }
       </HStack>
   )
 };
