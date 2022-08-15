@@ -1,4 +1,4 @@
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Button, Link } from '@chakra-ui/react'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Link } from '@chakra-ui/react'
 import { Spacer, Heading, HStack, Flex } from '@chakra-ui/layout'
 import { IconButton } from "@chakra-ui/button";
 import { useMediaQuery } from 'react-responsive'
@@ -38,8 +38,10 @@ function NavBar() {
       </Breadcrumb>
       : 
       <Menu>
-        <MenuButton as={IconButton}>
-          <HamburgerIcon/>
+        <MenuButton>
+          <IconButton mr="1" mt="1.5">
+            <HamburgerIcon/>
+          </IconButton>
         </MenuButton>
         <MenuList>
           <Link as={ReactLink} to='/'><MenuItem>Home</MenuItem></Link>
