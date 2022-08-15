@@ -1,12 +1,15 @@
 import { Stack, Box, Text, HStack, Flex} from '@chakra-ui/layout';
-import { useMediaQuery } from '@chakra-ui/media-query';
+import { useMediaQuery } from 'react-responsive'
 import { Button } from '@chakra-ui/button';
 import resume from '../Anik-Singha-Resume.pdf'
 import Terminal from './Terminal.js'
 import React from 'react'
 
 function Header() {
-    const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
+    const isNotSmallerScreen = useMediaQuery({
+        query: '(min-width: 800px)'
+      })
+      console.log(isNotSmallerScreen)
     return (
         <Stack>
             <HStack mt='75' ml='50'>
