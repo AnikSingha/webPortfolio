@@ -34,7 +34,7 @@ export default function GameProjectCard(){
                 Code &nbsp;<FaGithub/>
                 </Button>
             </a>
-            <a href="https://spaceinvaderstime.herokuapp.com/" target='_blank' rel="noreferrer">
+            <a href="https://space-invaders-ochre.vercel.app/" target='_blank' rel="noreferrer">
                 <Button variant="solid" 
                 colorScheme="blue" size="sm">
                     Try it out&nbsp;<FaExternalLinkAlt/>

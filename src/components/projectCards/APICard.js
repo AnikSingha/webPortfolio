@@ -31,7 +31,7 @@ export default function GameProjectCard(){
           <Flex>  
             <Spacer />
             <HStack>
-            <a href="https://github.com/AnikSingha/rest-api-practice" target='_blank' rel="noreferrer">
+            <a href="https://rest-api-practice.vercel.app/" target='_blank' rel="noreferrer">
                 <Button variant="solid" 
                 colorScheme="blue" size="sm">
                 Code &nbsp;<FaGithub/>
