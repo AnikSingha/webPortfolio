@@ -3,6 +3,7 @@ import { VStack, Flex } from '@chakra-ui/layout'
 import GameProjectCard from '../components/projectCards/GameProjectCard.js';
 import APICard from '../components/projectCards/APICard.js'
 import TitanicProjectCard from '../components/projectCards/TitanicProjectCard'
+import ChatProjectCard from '../components/projectCards/ChatProjectCard.js'
 
 export default function Projects() {
     return (
@@ -10,9 +11,10 @@ export default function Projects() {
             <Flex alignItems='space-around'>
                 <VStack>
                     <EmailProjectCard/>
-                    <GameProjectCard/>
+                    <ChatProjectCard/>
                     <APICard/>
                     <TitanicProjectCard/>
+                    <GameProjectCard/>
                 </VStack>
             </Flex>
             <br/><br/>
