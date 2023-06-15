@@ -1,7 +1,7 @@
 import { Stack, Box, Text, HStack, Flex} from '@chakra-ui/layout';
 import { useMediaQuery } from 'react-responsive'
 import { Button } from '@chakra-ui/button';
-import resume from '../Anik-Singha-Resume.pdf'
+import { Link } from 'react-router-dom'
 import Terminal from './Terminal.js'
 import React from 'react'
 
@@ -17,7 +17,7 @@ function Header() {
                     <Text fontSize={isNotSmallerScreen ? "5xl" : "5xl"} fontWeight="semibold" mr={isNotSmallerScreen ? "400" : "0"}>Hi, I'm</Text>
                     <Text fontSize={isNotSmallerScreen ? "7xl" : "5xl"} fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.500)" bgClip='text'>Anik Singha</Text>
                     <Text fontWeight='semibold' >A Full-Stack developer and CS student at Hunter College</Text>
-                    <a href={resume} download="Anik-Singha-Resume.pdf"><Button mt={5} colorScheme="blue">My Resume</Button></a>
+                    <Link to="../Anik-Singha-Resume.pdf" target="_blank" download><Button mt={5} colorScheme="blue">My Resume</Button></Link>
                 </Box>
                 </Flex>
                 <Terminal/>
