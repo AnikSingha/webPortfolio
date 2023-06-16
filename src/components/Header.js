@@ -16,7 +16,7 @@ function Header() {
                     <Text fontSize={isNotSmallerScreen ? "5xl" : "5xl"} fontWeight="semibold" mr={isNotSmallerScreen ? "400" : "0"}>Hi, I'm</Text>
                     <Text fontSize={isNotSmallerScreen ? "7xl" : "5xl"} fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.500)" bgClip='text'>Anik Singha</Text>
                     <Text fontWeight='semibold' >A Full-Stack developer and CS student at Hunter College</Text>
-                    <a href={'public/Anik-Singha-Resume.pdf'} download="Anik-Singha-Resume.pdf" target="_blank" rel="noopener noreferrer"><Button mt={5} colorScheme="blue">My Resume</Button></a>
+                    <a href={'/Anik-Singha-Resume.pdf'} download="Anik-Singha-Resume.pdf"><Button mt={5} colorScheme="blue">My Resume</Button></a>
                 </Box>
                 </Flex>
                 <Terminal/>
