@@ -8,9 +8,14 @@ function Header() {
     const isNotSmallerScreen = useMediaQuery({
         query: '(min-width: 800px)'
       })
+
+      const isScreenBig = useMediaQuery({ 
+        query: '(min-height: 900px)' 
+    })
+
     return (
         <Stack>
-            <HStack mt='75' ml='50'>
+            <HStack mt={isScreenBig ? '180' : '75'} ml='50' mb={isScreenBig ? '150' : '0'}>
                 <Flex alignItems='center' justifyContent='space-around'>
                 <Box mt={isNotSmallerScreen ? "0" : 16} mb="75">
                     <Text fontSize={isNotSmallerScreen ? "5xl" : "5xl"} fontWeight="semibold" mr={isNotSmallerScreen ? "400" : "0"}>Hi, I'm</Text>
