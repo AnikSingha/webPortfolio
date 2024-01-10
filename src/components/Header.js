@@ -7,9 +7,9 @@ import React from 'react'
 function Header() {
     const isNotSmallerScreen = useMediaQuery({
         query: '(min-width: 800px)'
-      })
-
-      const isScreenBig = useMediaQuery({ 
+    })
+    
+    const isScreenBig = useMediaQuery({ 
         query: '(min-height: 900px)' 
     })
 
