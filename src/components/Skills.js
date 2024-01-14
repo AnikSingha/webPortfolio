@@ -8,6 +8,9 @@ export default function Skills() {
         <Text fontSize="5xl" fontWeight="bold" ml="0">Skills</Text>
         <ul className='skills__list'>
             <li className='skills__list-item btn btn--plain'>
+                AWS
+            </li>
+            <li className='skills__list-item btn btn--plain'>
                 HTML
             </li>
             <li className='skills__list-item btn btn--plain'>
@@ -35,10 +38,13 @@ export default function Skills() {
                 PostgreSQL
             </li>
             <li className='skills__list-item btn btn--plain'>
-                C++
+                Java
             </li>
             <li className='skills__list-item btn btn--plain'>
                 C#/Net
+            </li>
+            <li className='skills__list-item btn btn--plain'>
+                Docker
             </li>
         </ul>
         </section>
