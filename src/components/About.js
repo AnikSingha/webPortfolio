@@ -9,7 +9,7 @@ export default function About() {
                   <VStack>
                       <Text fontSize="5xl" fontWeight="bold" >About Me</Text>
                       <Container>Hi, I'm Anik, a developer based in Brooklyn, NY.
-                        I'm currently a sophomore at Hunter College majoring in computer 
+                        I'm currently a Junior at Hunter College majoring in computer 
                         science and minoring in mathematics. My coding journey began not too
                         long ago. During my senior year of high school I struggled to find a major
                         that suited me. I wasn't really interested in any of the majors I was 
