@@ -1,6 +1,6 @@
 import { Box, Image, Text, Stack, Button, Badge, Flex, Spacer, HStack } from "@chakra-ui/react";
 import chat from '../images/chat.webp'
-import { FaExternalLinkAlt} from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
   
 export default function ChatProjectCard(){  
   return (
@@ -26,18 +26,24 @@ export default function ChatProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               Chat App
             </Text>
-            <Text fontWeight="light">A responsive chat app implemented using React and Material UI for the frontend 
+            <Text fontWeight="light" textAlign="center">A responsive chat app implemented using React and Material UI for the frontend 
             and firebase for the backend
             </Text>
           <Flex>  
             <Spacer />
             <HStack>
+            <a href="https://github.com/AnikSingha/chatApp" target='_blank' rel="noreferrer">
+              <Button variant="solid" 
+                colorScheme="blue" size="sm">
+              Code&nbsp;<FaGithub/>
+              </Button>
+            </a>
             <a href="https://chat-app-aniksingha.vercel.app/" target='_blank' rel="noreferrer">
                 <Button variant="solid" 
                 colorScheme="blue" size="sm">
                     Try it out&nbsp;<FaExternalLinkAlt/>
                 </Button>
-            </a>
+            </a> 
           </HStack>
           </Flex>
           </Stack>

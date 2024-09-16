@@ -23,7 +23,7 @@ export default function GameProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               Space Invaders
             </Text>
-            <Text fontWeight="light">A Space Invaders copy created using phaserJS, a javascript library for creating games
+            <Text fontWeight="light" textAlign="center">A Space Invaders copy created using phaserJS, a javascript library for creating games
             </Text>
           <Flex>  
             <Spacer />

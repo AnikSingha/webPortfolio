@@ -23,7 +23,7 @@ export default function EmailProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               Temporary Email Generator
             </Text>
-            <Text fontWeight="light">Wraps the 1secmail API and allows you to easily generate throwaway emails and check their inboxes
+            <Text fontWeight="light" textAlign="center">Wraps the 1secmail API and allows you to easily generate throwaway emails and check their inboxes
             </Text>
           <Flex>  
             <Spacer />

@@ -26,7 +26,7 @@ export default function WhisperProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               AI Subtitle Generator
             </Text>
-            <Text fontWeight="light">I created my own API for OpenAI's Whisper LLM and then developed a self hostable flask server for it
+            <Text fontWeight="light" textAlign="center">I created my own API for OpenAI's Whisper LLM and then developed a self hostable flask server for it
             </Text>
           <Flex>  
             <Spacer />

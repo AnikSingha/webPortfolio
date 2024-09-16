@@ -6,6 +6,8 @@ import APICard from '../components/projectCards/APICard.js'
 import TitanicProjectCard from '../components/projectCards/TitanicProjectCard'
 import ChatProjectCard from '../components/projectCards/ChatProjectCard.js'
 import WhisperProjectCard from './projectCards/WhisperProjectCard.js';
+import JeopardyProjectCard from './projectCards/Jeopardy.js';
+import PasswordManagerProjectCard from './projectCards/PasswordManager'
 
 export default function Projects() {
     const isScreenBig = useMediaQuery({ 
@@ -17,12 +19,16 @@ export default function Projects() {
             <Flex alignItems='space-around'>
                 <VStack  style={{ marginTop: isScreenBig ? '30px' : '0' }}>
                     <HStack spacing='100px'>
+                        <PasswordManagerProjectCard/>
+                        <JeopardyProjectCard/>
                         <WhisperProjectCard/>
-                        <ChatProjectCard/>
-                        <APICard/>
                     </HStack>
                     <HStack spacing='100px'>
+                        <ChatProjectCard/>
+                        <APICard/>
                         <EmailProjectCard/>
+                    </HStack>
+                    <HStack spacing='100px'>
                         <TitanicProjectCard/>
                         <GameProjectCard/>
                     </HStack>

@@ -23,7 +23,7 @@ export default function GameProjectCard(){
             <Text as="h2" fontWeight="bold" my={2} >
               Titanic Log Regression
             </Text>
-            <Text fontWeight="light"> Uses a log regression model to statistically determine whether you'd survive being on the titanic 
+            <Text fontWeight="light" textAlign="center"> Uses a log regression model to statistically determine whether you'd survive being on the titanic 
             </Text>
           <Flex>  
             <Spacer />
