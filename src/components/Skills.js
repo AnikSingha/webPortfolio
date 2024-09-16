@@ -11,37 +11,40 @@ export default function Skills() {
                 AWS
             </li>
             <li className='skills__list-item btn btn--plain'>
-                HTML
+                Full-Stack Development
             </li>
             <li className='skills__list-item btn btn--plain'>
-                CSS
+                Devops
             </li>
             <li className='skills__list-item btn btn--plain'>
-                JavaScript
-            </li
-            ><li className='skills__list-item btn btn--plain'>
+                CI/CD
+            </li>
+            <li className='skills__list-item btn btn--plain'>
+                Python
+            </li>
+            <li className='skills__list-item btn btn--plain'>
+                Javascript
+            </li>
+            <li className='skills__list-item btn btn--plain'>
+                Golang
+            </li>
+            <li className='skills__list-item btn btn--plain'>
                 Node.js
             </li>
             <li className='skills__list-item btn btn--plain'>
                 React
             </li>
             <li className='skills__list-item btn btn--plain'>
-                ExpressJS
-            </li>
-            <li className='skills__list-item btn btn--plain'>
-                Python
-            </li>
-            <li className='skills__list-item btn btn--plain'>
                 Flask
+            </li>
+            <li className='skills__list-item btn btn--plain'>
+                FastAPI
             </li>
             <li className='skills__list-item btn btn--plain'>
                 PostgreSQL
             </li>
             <li className='skills__list-item btn btn--plain'>
-                Java
-            </li>
-            <li className='skills__list-item btn btn--plain'>
-                C#/Net
+                MongoDB
             </li>
             <li className='skills__list-item btn btn--plain'>
                 Docker
