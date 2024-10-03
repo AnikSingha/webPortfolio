@@ -76,13 +76,13 @@ function NavBar() {
       {isNotSmallerScreen ? 
         <Breadcrumb spacing='7px' separator=' ' mt={1}>
           <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/'>Home</BreadcrumbLink>
+            <BreadcrumbLink fontWeight='semibold' fontSize="1.1rem" as={ReactLink} to='/'>Home</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/projects'>Projects</BreadcrumbLink>
+            <BreadcrumbLink fontWeight='semibold' fontSize="1.1rem" as={ReactLink} to='/projects'>Projects</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem mr={0.5}>
-            <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/experience' mr={3}>Experience</BreadcrumbLink>
+            <BreadcrumbLink fontWeight='semibold' fontSize="1.1rem" as={ReactLink} to='/experience' mr={3}>Experience</BreadcrumbLink>
           </BreadcrumbItem>
         </Breadcrumb>
       : 
