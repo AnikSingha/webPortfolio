@@ -31,15 +31,13 @@ function NavBar() {
           <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/'>Home</BreadcrumbLink>
         </BreadcrumbItem>
 
-        <BreadcrumbItem mr={3}>
+        <BreadcrumbItem>
           <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/projects'>Projects</BreadcrumbLink>
         </BreadcrumbItem>
         
-        {/*
-        <BreadcrumbItem>
+        <BreadcrumbItem mr={0.5}>
           <BreadcrumbLink fontWeight='semibold' as={ReactLink} to='/experience' mr={3}>Experience</BreadcrumbLink>
         </BreadcrumbItem>
-        */}
         
       </Breadcrumb>
       : 
@@ -52,7 +50,7 @@ function NavBar() {
         <MenuList>
           <Link as={ReactLink} to='/'><MenuItem>Home</MenuItem></Link>
           <Link as={ReactLink} to='/projects'><MenuItem>Projects</MenuItem></Link>
-          {/* <Link as={ReactLink} to='/experience'><MenuItem>Experience</MenuItem></Link> */}
+          <Link as={ReactLink} to='/experience'><MenuItem>Experience</MenuItem></Link>
         </MenuList>
       </Menu>
       }
