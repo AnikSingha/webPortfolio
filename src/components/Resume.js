@@ -9,7 +9,7 @@ import {
 
 const Resume = () => {
   return (
-    <Box p={6} bg="gray.800" borderRadius="lg" boxShadow="lg">
+    <Box p={6} bg="gray.800" borderRadius="lg" boxShadow="lg" maxWidth={1000}>
       <Box mb={6} p={5} bg="gray.700" borderRadius="md" boxShadow="md">
         <Heading as="h3" size="lg" color="gray.300">
           Memorial Sloan Kettering Cancer Center
