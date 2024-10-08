@@ -73,6 +73,9 @@ const Resume = () => {
             Attended workshops designed to enhance technical problem-solving
             and interview skills.
           </ListItem>
+          <ListItem>
+           Collaborated with peers on coding challenges and received personalized feedback to improve algorithmic efficiency and code quality
+          </ListItem>
         </UnorderedList>
       </Box>
 
